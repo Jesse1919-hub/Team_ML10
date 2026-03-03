@@ -9,6 +9,24 @@
 | **Implementation Strategy** | Explains the step-by-step analytical plan for answering the business question, including preprocessing, modeling pipeline, validation design, and performance benchmarking. |
 | **Stakeholder Value** | Defines how insights will be translated into actionable recommendations, tailored communication strategies for technical and non-technical stakeholders, and expected business impact. |
 | **Team Roles & Accountability** | Clarifies responsibilities, ownership of deliverables, collaboration workflow, and quality control mechanisms within Team 10. |
+
+.
+├── .gitignore
+├── bank_architect.ipynb
+├── pyproject.toml
+├── README.md
+├── SETUP.md
+│
+├── data
+│   └── raw
+│       └── bank-additional
+│           ├── bank-additional-full.csv
+│           ├── bank-additional-names.txt
+│           └── bank-additional.csv
+│
+└── src
+    ├── code.ipynb
+    └── data-analysis.ipynb
 ## BUSINESS MOTIVATION
 
 ### THE PROBLEM
