@@ -31,7 +31,7 @@
 │       └── bank-additional/
 │           ├── bank-additional-full.csv
 │           └── bank-additional-names.txt
-|
+│
 ├── extra/
 │   └── initial_data_analysis.pptx
 │
