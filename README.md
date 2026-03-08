@@ -19,13 +19,26 @@
 ├── README.md
 ├── SETUP.md
 │
+├── analysis_output/
+│   ├── campaign_fatigue.png
+│   ├── euribor_impact.png
+│   ├── feature_importance_proof.png
+│   ├── shap_bar.png
+│   └── shap_beeswarm.png
+│
 ├── data/
 │   └── raw/
 │       └── bank-additional/
 │           ├── bank-additional-full.csv
-│           ├── bank-additional-names.txt
-│           └── bank-additional.csv
+│           └── bank-additional-names.txt
+|
+├── extra/
+│   └── initial_data_analysis.pptx
 │
+|
+├── reports/
+│   └── Bank_Campaign_Presentation_F.pptx
+|
 └── src/
     ├── bank_architect.ipynb
     ├── code.ipynb
@@ -248,7 +261,7 @@ To ensure efficient execution and satisfy course requirements, we have divided t
 *   **[Armita Kharmandar] – Machine Learning Modeler**
     *   **Focus:** Predictive accuracy and algorithm architecture.
     *   **Tasks:** Develop the baseline Logistic Regression and standard Random Forest models, handle the severe class imbalance (via stratified sampling or SMOTE), and evaluate model performance across different economic regimes using AUC-ROC.
-*   **[Mankit Wong] – Model Explainability (XAI) Specialist**
+*   **[Man Kit Wong] – Model Explainability (XAI) Specialist**
     *   **Focus:** Model transparency and sales enablement.
     *   **Tasks:** Implement SHAP to extract global feature importance, generate individual Waterfall plots for the "Sales Cockpit," and analyze false-positive/false-negative error patterns to identify model blind spots.
 *   **[Jesse Segura] – Exploratory Data Analysis (EDA) Specialist**
@@ -259,4 +272,12 @@ To ensure efficient execution and satisfy course requirements, we have divided t
     *   **Tasks:** Hard-code the removal of the `duration` column to prevent temporal leakage, map categorical variables, handle `unknown` data points, and engineer features (e.g., converting `pdays` into a binary contact history). 
 
 *** 
+
+## Credits and Personal Links
+* [Sean Brennan](#)
+* [Armita Kharmandar](#)
+* [Man Kit Wong](https://drive.google.com/file/d/18DNRj-pAzUH8VdX5Sw5lgF4EV13gVF3Y/view?usp=share_link)
+* [Jesse Segura](https://www.youtube.com/watch?v=qrllMGGGlOA)
+* [Maryam Abedinnejad](#ß)
+
 
